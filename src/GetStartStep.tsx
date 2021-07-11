@@ -7,7 +7,7 @@ interface Props {
 
 const GetStartStep: React.FC<Props> = (props) => {
   return (
-    <div className="flex md:flex-col md:px-4 md:w-1/3 md:mx-8 md:justify-between">
+    <div className="flex md:flex-col md:w-1/3 md:mx-8 md:justify-between">
       <div className="w-20 md:m-auto">
         <div
           className={"w-12 h-12 mx-4 my-6 bg-cover object-cover " + props.link}
