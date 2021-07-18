@@ -20,7 +20,7 @@ const RoundLink: React.FC<Props> = (props) => {
       <a
         className={
           bg +
-          " text-sm md:text-base tracking-wide w-full flex-shrink-0 px-4 py-2 font-bold rounded-full " +
+          " text-sm md:text-base tracking-wide flex-shrink-0 px-4 py-1.5 lg:py-2 font-bold rounded-full " +
           themeClasses
         }
         {...props}

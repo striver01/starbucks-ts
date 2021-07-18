@@ -71,6 +71,9 @@ const Nav: React.FC<Props> = (props) => {
           <circle fill="transparent" cx="50%" cy="50%" r="75%"></circle>
         </svg>
       </div>
+      {/* <div className="lg:hidden w-96 bg-white z-30 top-16 right-0 bottom-0 absolute">
+
+      </div> */}
     </div>
   );
 };

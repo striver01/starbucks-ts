@@ -208,32 +208,32 @@ const App: React.FC<Props> = (props) => {
           </svg>
         </div>
       </div>
-      <div className="text-base mx-5 font-semibold space-y-4 md:space-y-0 md:flex md:items-start">
+      <div className="text-xxxl lg:text-base text-gray-600 mx-5 lg:font-medium space-y-4 lg:space-y-0 flex flex-col lg:flex-row lg:items-start">
         <a
           href="https://google.com"
-          className="pr-8 border-r border-gray-600 hover:underline"
+          className="lg:pr-8 lg:border-r border-gray-600 hover:underline"
         >
           Privacy Policy
         </a>
         <a
           href="https://google.com"
-          className="px-8 border-r border-gray-600 hover:underline"
+          className="lg:px-8 lg:border-r border-gray-600 hover:underline"
         >
           Terms of Use
         </a>
         <a
           href="https://google.com"
-          className="px-8 border-r border-gray-600 hover:underline"
+          className="lg:px-8 lg:border-r border-gray-600 hover:underline"
         >
           CA Supply Chain Act
         </a>
         <a
           href="https://google.com"
-          className="px-8 border-r border-gray-600 hover:underline"
+          className="lg:px-8 lg:border-r border-gray-600 hover:underline"
         >
           Submit Your Idea
         </a>
-        <a href="https://google.com" className="px-8 hover:underline">
+        <a href="https://google.com" className="lg:px-8 hover:underline">
           Cookie Preferences
         </a>
       </div>
